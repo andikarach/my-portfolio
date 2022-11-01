@@ -172,7 +172,10 @@
 		    	message: message,
 		    	subject: subject
 			},
-			success: () => { alert('Done') },
+			success: () => { 
+				alert('Done');
+				window.location = "http://203.194.113.26/my-portfolio";
+			},
 			error: () => { alert('Failed') }
   		});
 	});
